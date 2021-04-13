@@ -9,21 +9,21 @@
 /* Begin PBXBuildFile section */
 		E6678C7023E3FEFA00240B83 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6678C6F23E3FEFA00240B83 /* AppDelegate.swift */; };
 		E6678C7223E3FEFA00240B83 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6678C7123E3FEFA00240B83 /* SceneDelegate.swift */; };
-		E6678C7423E3FEFA00240B83 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6678C7323E3FEFA00240B83 /* ContentView.swift */; };
 		E6678C7623E3FEFB00240B83 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E6678C7523E3FEFB00240B83 /* Assets.xcassets */; };
 		E6678C7923E3FEFB00240B83 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E6678C7823E3FEFB00240B83 /* Preview Assets.xcassets */; };
 		E6678C7C23E3FEFB00240B83 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E6678C7A23E3FEFB00240B83 /* LaunchScreen.storyboard */; };
+		E6BE9EEA23E7C7A2001D2208 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6BE9EE923E7C7A2001D2208 /* ContentView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		E6678C6C23E3FEFA00240B83 /* Listing 7-11.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Listing 7-11.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E6678C6F23E3FEFA00240B83 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E6678C7123E3FEFA00240B83 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		E6678C7323E3FEFA00240B83 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		E6678C7523E3FEFB00240B83 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E6678C7823E3FEFB00240B83 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		E6678C7B23E3FEFB00240B83 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E6678C7D23E3FEFB00240B83 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E6BE9EE923E7C7A2001D2208 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,7 +58,7 @@
 			children = (
 				E6678C6F23E3FEFA00240B83 /* AppDelegate.swift */,
 				E6678C7123E3FEFA00240B83 /* SceneDelegate.swift */,
-				E6678C7323E3FEFA00240B83 /* ContentView.swift */,
+				E6BE9EE923E7C7A2001D2208 /* ContentView.swift */,
 				E6678C7523E3FEFB00240B83 /* Assets.xcassets */,
 				E6678C7A23E3FEFB00240B83 /* LaunchScreen.storyboard */,
 				E6678C7D23E3FEFB00240B83 /* Info.plist */,
@@ -102,7 +102,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1130;
-				LastUpgradeCheck = 1130;
+				LastUpgradeCheck = 1240;
 				ORGANIZATIONNAME = "John Gauchat";
 				TargetAttributes = {
 					E6678C6B23E3FEFA00240B83 = {
@@ -148,7 +148,7 @@
 			files = (
 				E6678C7023E3FEFA00240B83 /* AppDelegate.swift in Sources */,
 				E6678C7223E3FEFA00240B83 /* SceneDelegate.swift in Sources */,
-				E6678C7423E3FEFA00240B83 /* ContentView.swift in Sources */,
+				E6BE9EEA23E7C7A2001D2208 /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -192,6 +192,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -252,6 +253,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
